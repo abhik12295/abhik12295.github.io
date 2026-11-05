@@ -12,10 +12,7 @@ Then open `http://localhost:8000`.
 
 ## GitHub Pages
 
-After merging to `main`, configure **Settings → Pages** to deploy from the repository's `main` branch and `/ (root)` folder. The expected URL is:
+After GitHub Pages is enabled with **GitHub Actions** as the publishing source, the included workflow deploys every update to `main` automatically. The expected URL is:
 
 `https://abhik12295.github.io/portfolio_streamlit/`
 
-## Content update note
-
-The Kuehne+Nagel promotion is currently shown at year-level (`2026`). Replace the two timeline date labels with the exact promotion month when confirmed.
