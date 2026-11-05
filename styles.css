@@ -35,7 +35,7 @@ html[data-theme="light"] {
 }
 
 *, *::before, *::after { box-sizing: border-box; }
-html { scroll-behavior: smooth; scroll-padding-top: 92px; }
+html { max-width: 100%; overflow-x: hidden; scroll-behavior: smooth; scroll-padding-top: 92px; }
 body {
   margin: 0;
   width: 100%;
