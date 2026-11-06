@@ -224,7 +224,15 @@ html[data-theme="light"] .button-primary { color: #fff; background: var(--accent
   border: 1px solid rgba(89,226,194,.2);
 }
 .portrait-glow { position: absolute; inset: 24% 0 0 15%; z-index: -1; border-radius: 50%; background: rgba(35,201,166,.27); filter: blur(70px); }
-.portrait-frame img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 25px; background: var(--surface-soft); }
+.portrait-frame img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 25px;
+  background: var(--surface-soft);
+}
 .portrait-label {
   position: absolute;
   left: -34px;
