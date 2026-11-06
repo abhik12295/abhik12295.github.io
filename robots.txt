@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://abhik12295.github.io/portfolio_streamlit/sitemap.xml
+Sitemap: https://abhik12295.github.io/sitemap.xml
